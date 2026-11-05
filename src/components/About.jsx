@@ -38,11 +38,11 @@ const About = () => {
               {/* Main image container */}
               <div className="relative bg-white rounded-2xl overflow-hidden shadow-xl">
                 {/* Image with full cover */}
-                <div className="aspect-square">
+                <div className="aspect-[2/3] w-full">
                   <img 
                     src={profileImageUrl} 
                     alt="Profile" 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 
