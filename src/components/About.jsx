@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FaGraduationCap, FaAward, FaBriefcase, FaUser, FaCode, FaChartLine, FaLightbulb } from 'react-icons/fa';
 
 const About = () => {
-  const profileImageUrl = "https://z-cdn-media.chatglm.cn/files/cdc59d9b-f34c-47f6-ab9b-bb18f7ee472b_Adobe%20Express%20-%20file%20%281%29.png?auth_key=1788469884-8a0290c9b8ec490e94841e11f4dfb759-0-c12c8c106b11655ea4c13172d3b6328a";
+  const profileImageUrl = "/umar-profile.png";
 
   return (
     <section id="about" className="py-16 sm:py-20 bg-gradient-to-br from-gray-50 to-white">
@@ -38,7 +38,7 @@ const About = () => {
               {/* Main image container */}
               <div className="relative bg-white rounded-2xl overflow-hidden shadow-xl">
                 {/* Image with full cover */}
-                <div className="aspect-w-1 aspect-h-1">
+                <div className="aspect-square">
                   <img 
                     src={profileImageUrl} 
                     alt="Profile" 
